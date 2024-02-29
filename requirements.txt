@@ -1,7 +1,11 @@
 numpy==1.26.2
 pandas==2.1.3
 pytorch-lightning==2.1.2
-spacy==3.7.2
+spacy==3.7.2 
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl#sha256=6a0f857a2b4d219c6fa17d455f82430b365bf53171a2d919b9376e5dc9be032e
+ja-core-news-md @ https://github.com/explosion/spacy-models/releases/download/ja_core_news_md-3.7.0/ja_core_news_md-3.7.0-py3-none-any.whl#sha256=9620316189c3638feec33d3abd0375d532650860d4e6cd2b2a6232594e14d440
 streamlit==1.31.1
 torch==2.1.1
 torchtext==0.16.1
