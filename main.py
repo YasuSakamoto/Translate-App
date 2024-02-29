@@ -1,4 +1,3 @@
-from fastapi import FastAPI, HTTPException
 import torch
 from model import Transformer  # モデルクラスのインポート
 
